@@ -9,5 +9,6 @@
     java.util.Date date = new java.util.Date();
 %>
 Hello!  The time is now <%= date %>
+"Server: " <%=System.getProperty("server.name")%>
 </body>
 </html>
